@@ -94,10 +94,10 @@ export default function Navbar() {
                   <div className="flex space-x-4">
                     {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
                     <Link
-                      href="/"
+                      href="/dashboard"
                       className="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white"
                     >
-                      Home
+                      Projects
                     </Link>
                     <a
                       href="#"
