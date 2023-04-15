@@ -2,7 +2,19 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, run the docker compose:
+
+```
+docker compose up -d
+```
+
+then copy the .env.template in a new file called .env.local
+
+```
+cp .env.template .env.local
+```
+
+then run the development server:
 
 ```bash
 npm run dev

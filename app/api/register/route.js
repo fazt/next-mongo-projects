@@ -6,7 +6,6 @@ export async function POST(request) {
 
   try {
     const body = await request.json();
-    console.log(body)
     const user = await User.create(body);
 
     return new Response(JSON.stringify(user), {

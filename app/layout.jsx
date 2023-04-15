@@ -10,10 +10,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+      {/* cacl h-screen minus */}
+      <body className="h-[calc(100vh-4rem)]">
         <Providers>
           <Navbar />
-          {children}
+          <div className="container mx-auto max-w-7xl lg:px-8">{children}</div>
         </Providers>
       </body>
     </html>
